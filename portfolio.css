@@ -1,0 +1,327 @@
+body{
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+}
+.color{
+    color: darkblue;
+}
+.color:hover{
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 50px;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+}
+.bold {
+    color:red;
+}
+.bold:hover{
+    border-bottom: 2px solid darkblue;
+    cursor: pointer;
+}
+.au {
+    color: rgb(59, 8, 59);
+}
+h3{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.card-title{
+    font-weight: 100;
+    text-align:center;
+    color:white;
+    font-family: 'Anton', sans-serif;
+}
+.card-title:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.bt{
+    color: black;
+    height: 40px;
+    background: #C02425;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    border-style:none;
+    width: 100px;
+    margin-left:40%;
+}
+.bt:focus {
+    outline: none;
+}
+.p{
+    margin-bottom: 30px;
+}
+
+
+
+.edu{
+    font-weight: 100;
+    letter-spacing: 3px;
+
+    color:white;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+.edu:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    width:100%
+}
+.edus{
+    font-weight: 100;
+    letter-spacing: 3px;
+    color:white;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+.edus:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    width:100%;
+}
+.nav-link:hover{
+    border-bottom:2px solid darkblue;
+    cursor: pointer;
+    width:100%;
+}
+.eduss{
+    font-weight: 100;
+    letter-spacing: 2px;
+    
+    color:white;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+.eduss:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    width:100%;
+}
+
+li{
+    list-style: none;
+}
+
+
+/*------------------------------------------form----------------------------------------- */
+
+
+.formbox {
+        height: 480px;
+        width: 380px;
+        border-radius: 20px;
+        background: #200122;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        position: relative;
+        margin:0% auto;
+        margin-top: 60px;
+        padding:5px;
+        overflow: hidden;
+}
+
+
+#regbtn{
+    color: black;
+    height: 40px;
+    background: white ; 
+    border-radius: 20px;
+    border:none;
+    width: 130px;
+    margin-left:35px;
+    margin-top: 20px;
+    outline: none;
+    cursor:pointer;
+}
+
+#logbtn{
+    color: black;
+    height: 40px;
+    background: #C02425;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    border:none;
+    width: 130px;
+    margin-left:35px;
+    margin-top: 20px;
+    outline: none;
+    cursor:pointer;
+}
+
+
+
+.button:focus {
+    outline: none;
+}
+.buttonlog:focus {
+    outline: none;
+}
+.buttonlogs:focus {
+    outline: none;
+}
+.img{
+   
+    cursor: pointer;
+}
+.u{
+    height:30px;
+    width:30px;
+    margin:25px auto;
+    border-radius:10px;
+    cursor: pointer;
+}
+.v{
+   
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.input-field {
+    margin-left: 35px;
+    width: 80% ;
+    margin-top:20px;
+    padding: 20px 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 1px solid black;
+    border-right: 0 ;
+    outline: none;
+    background: transparent;
+}
+.input-fields {
+    margin-left: 35px;
+    width: 80% ;
+    margin-top:0px;
+    padding: 10px 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 1px solid black;
+    border-right: 0 ;
+    outline: none;
+    background: transparent;
+}
+.bb{
+    margin-top:20px;
+    margin-left: 35px;
+    border-radius: 20px;
+}
+.bbs{
+    margin-top:10px;
+    margin-left: 35px;
+    border-radius: 20px;
+}
+
+.buttonlog{
+    color: black;
+    height: 40px;
+    background: #C02425;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border-radius: 20px;
+    border-style:none;
+    width: 200px;
+    margin-left:80px;
+    margin-top: 120px;
+    cursor: pointer;
+}
+.buttonlogs{
+    cursor: pointer;
+    color: black;
+    height: 40px;
+    background: #C02425;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    border-style:none;
+    width: 200px;
+    margin-left:80px;
+    margin-top: 50px;
+}
+
+ .input-field:focus{
+    border-bottom-color:white;
+} 
+
+.input-field:focus ~ LABEL ,
+.input-field:valid ~ LABEL{
+    bottom: 55px;
+    transition: 0.5s;
+    font-size: 14px;
+    color: black;
+}
+
+
+.input-fields:focus{
+    border-bottom-color:white;
+} 
+
+.input-fields:focus ~ LABEL ,
+.input-fields:valid ~ LABEL{
+    bottom: 55px;
+    transition: 0.5s;
+    font-size: 14px;
+    color: black;
+}
+
+
+LABEL {
+    left:35px;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    bottom: 30px;
+}
+.jj{
+    color: white;
+   margin-left: 37px;
+}
+
+
+/* education */
+.thumbnail{
+    background: #200122;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.sh{
+   
+    color: #870000;
+}
+.sh:hover{
+ border-bottom: 2px solid darkblue;
+ cursor: pointer;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-texts{
+    text-align: center;
+    font-size: 20px;
+}
+.card-texts:hover{
+    text-align: center;
+    font-size: 20px;
+    background: white;
+}
+
+
